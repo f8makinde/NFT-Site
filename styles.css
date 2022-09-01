@@ -112,3 +112,36 @@ footer{
     text-align: center;
     font-weight: bold;
 }
+@media only screen and (max-width: 600px) {
+    .container{
+        width: 76%;
+        margin: 0 auto;
+    }
+    h1{
+        font-size: 32px;
+        color: whitesmoke;
+        margin: 0;    
+    }
+    .main-img{
+        width: 50%;
+        object-fit: cover;
+    }
+    .img-container{
+        display: flex;
+        flex-direction: column;  
+      }
+      .feature-image{
+        margin: 0 0 20px 0;
+    }
+    h2{
+        font-size: 20px;
+        margin-top: 0;
+        
+    }
+
+  }
+  @media only screen and (max-width: 280px) {
+    .feature-image{
+        width: 200px;
+    }
+  }
