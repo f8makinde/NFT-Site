@@ -7,17 +7,18 @@ body{
 
 /* layout */
 
-header .container{
+header, .section-two{
     background: #5f29a3;
-    padding: 45px 0px;
-}
-section{
-    padding: 45px 0px;
 }
 
 .container{
     width: 620px;
     margin: 0 auto;
+}
+header,
+ section, 
+ footer{
+    padding: 45px 0px;
 }
 
 /* typography */
@@ -39,7 +40,6 @@ h3{
 }
 
 
-
 /* links */
 
 .main-link{
@@ -58,7 +58,6 @@ h3{
     object-fit: cover;
 }
 .section-two{
-    background: #5f29a3;
     width: 100%;
     color: whitesmoke;
 }
@@ -69,4 +68,9 @@ h3{
 .feature-image{
     width: 300px;
     border-radius: 4.6px;
+}
+footer{
+    color: #5f29a3;
+    text-align: center;
+    font-weight: bold;
 }
