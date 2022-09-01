@@ -42,6 +42,44 @@ p{
     line-height: 23px;
 }
 
+.btn-dark{
+    background: #5f29a3;
+    padding: 10px 19px;
+    color: whitesmoke;
+    text-decoration: none;
+    border-radius: 4.6px;
+    font-weight: 500;
+}
+.btn-dark:hover,
+.btn-mid:hover,
+.btn-light:hover
+.btn-dark:active,
+.btn-mid:active,
+.btn-light:active
+  {
+    background: #f3e885;
+    color: #2b283a;
+}
+.btn-dark:active{
+    background: #f3e885;
+    color: #2b283a;
+}
+
+.btn-mid{
+    background: #f0e0ff;
+    color: #5f29a3;
+}
+.btn-light{
+    background: whitesmoke;
+    color: #5f29a3;
+}
+a{
+    text-decoration: none;
+    padding: 10px 19px;
+    border-radius: 4.6px;
+    font-weight: 500;
+}
+
 /* links */
 
 .main-link{
