@@ -5,14 +5,32 @@ body{
     margin: 0;
 }
 
-header{
+/* layout */
+
+header .container{
     background: #5f29a3;
     padding: 45px 0px;
 }
+section{
+    padding: 45px 0px;
+}
+
+.container{
+    width: 620px;
+    margin: 0 auto;
+}
+
+/* typography */
+
 h1{
     font-size: 36px;
     color: whitesmoke;
     margin: 0;
+}
+h2{
+    font-size: 24px;
+    margin-top: 0;
+    
 }
 h3{
     font-size: 20px;
@@ -20,18 +38,35 @@ h3{
     margin: 0;
 }
 
-section{
-    padding: 45px 0px;
+
+
+/* links */
+
+.main-link{
+    color: #ef5839;
+    text-decoration: underline dotted;
 }
+.main-link:hover{
+    color: #d4b44c;
+}
+.main-link:active{
+    color: #d4b44c;   
+}
+
 .main-img{
     width: 100%;
     object-fit: cover;
 }
-h2{
-    font-size: 24px;
-    margin: 0;
-    
+.section-two{
+    background: #5f29a3;
+    width: 100%;
+    color: whitesmoke;
 }
-p{
-    font-size: 16px;
+.img-container{
+  display: flex;
+  justify-content: space-between;
+}
+.feature-image{
+    width: 300px;
+    border-radius: 4.6px;
 }
