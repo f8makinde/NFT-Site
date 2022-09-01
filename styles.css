@@ -2,4 +2,20 @@ body{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: #2b283a;
+    margin: 0;
+}
+
+header{
+    background: #5f29a3;
+    padding: 45px 0px;
+}
+h1{
+    font-size: 36px;
+    color: whitesmoke;
+    margin: 0;
+}
+h3{
+    font-size: 20px;
+    color: #d0aaff;
+    margin: 0;
 }
