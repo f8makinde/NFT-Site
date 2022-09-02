@@ -143,8 +143,35 @@ footer{
     }
 
   }
+  /* @media only screen and (max-width: 375px) {
+    .feature-image{
+      width: 290px;
+    }
+  } */
+  @media only screen and (max-width: 414px) {
+    .feature-image{
+      width: 310px;
+    }
+  }
+  @media only screen and (max-width: 393px) {
+    .feature-image{
+      width: 290px;
+    }
+  }
+  @media only screen and (max-width: 360px) {
+    .feature-image{
+      width: 270px;
+    }
+  }
   @media only screen and (max-width: 280px) {
     .feature-image{
-        width: 200px;
+        width: 210px;
+    }
+    .btn{
+        margin: 4px 0px;
+        
+    }
+    .last-btn{
+      text-align: center;
     }
   }
