@@ -8,7 +8,7 @@ body{
 /* layout */
 
 header, .section-two{
-    background: #5f29a3;
+    background: #3d92fa;
 }
 
 .container{
@@ -29,13 +29,13 @@ h1{
     margin: 0;
 }
 h2{
-    font-size: 24px;
+    font-size: 28px;
     margin-top: 0;
     
 }
 h3{
     font-size: 20px;
-    color: #d0aaff;
+    color: #9ddbfa;
     margin: 0;
 }
 p{
@@ -43,7 +43,7 @@ p{
 }
 
 .btn-dark{
-    background: #5f29a3;
+    background: #3d92fa;
     padding: 10px 19px;
     color: whitesmoke;
     text-decoration: none;
@@ -62,12 +62,12 @@ p{
 }
 
 .btn-mid{
-    background: #f0e0ff;
-    color: #5f29a3;
+    background: #e0f2fb;
+    color: #3d92fa;
 }
 .btn-light{
     background: whitesmoke;
-    color: #5f29a3;
+    color: #3d92fa;
 }
 
  .btn{
@@ -108,9 +108,12 @@ p{
     border-radius: 4.6px;
 }
 footer{
-    color: #5f29a3;
+    color: #3d92fa;
     text-align: center;
     font-weight: bold;
+}
+.justify-text{
+    text-align: justify;
 }
 @media only screen and (max-width: 600px) {
     .container{
