@@ -116,7 +116,7 @@ footer{
 .justify-text{
     text-align: justify;
 }
-@media only screen and (max-width: 637px) {
+@media only screen and (max-width: 650px) {
     .container{
         width: 76%;
         margin: 0 auto;
@@ -173,17 +173,17 @@ footer{
     }
 
   }
-  @media only screen and (max-width: 540px) {
+  @media only screen and (max-width: 550px) {
     .feature-image{
       width: 407px;
     }
   }
-  @media only screen and (max-width: 414px) {
+  @media only screen and (max-width: 450px) {
     .feature-image{
       width: 315px;
     }
   }
-  @media only screen and (max-width: 393px) {
+  @media only screen and (max-width: 400px) {
     .feature-image{
       width: 290px;
     }
@@ -198,7 +198,7 @@ footer{
       width: 274px;
     }
   }
- @media only screen and (max-width: 320px) {
+ @media only screen and (max-width: 325px) {
     .feature-image{
         width: 240px;
     }
@@ -219,7 +219,7 @@ footer{
       text-align: center;
     }
   }
-@media only screen and (max-width: 200px) {
+@media only screen and (max-width: 250px) {
     .feature-image{
         width: 180px;
     }
@@ -231,7 +231,7 @@ footer{
       text-align: center;
     }
   }
-@media only screen and (max-width: 180px) {
+@media only screen and (max-width: 200px) {
     .feature-image{
         width: 150px;
     }
@@ -355,7 +355,7 @@ footer{
         font-size: 10px;
     }
 }
-@media only screen and (max-width: 73px) {
+@media only screen and (max-width: 75px) {
     .btn{
         display: inline-block;
         text-decoration: none;
