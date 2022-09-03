@@ -116,6 +116,35 @@ footer{
 .justify-text{
     text-align: justify;
 }
+@media only screen and (max-width: 637px) {
+    .container{
+        width: 76%;
+        margin: 0 auto;
+    }
+    h1{
+        font-size: 32px;
+        color: whitesmoke;
+        margin: 0;    
+    }
+    .main-img{
+        width: 100%;
+        object-fit: cover;
+    }
+    .img-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .feature-image{
+        margin: 0 0 20px 0;
+    }
+    h2{
+        font-size: 20px;
+        margin-top: 0;
+        
+    }
+
+  }
 @media only screen and (max-width: 600px) {
     .container{
         width: 76%;
@@ -169,6 +198,15 @@ footer{
       width: 274px;
     }
   }
+ @media only screen and (max-width: 320px) {
+    .feature-image{
+        width: 240px;
+    }
+    .btn{
+        margin: 4px 0px;
+        
+    }
+}
   @media only screen and (max-width: 280px) {
     .feature-image{
         width: 210px;
@@ -181,3 +219,104 @@ footer{
       text-align: center;
     }
   }
+@media only screen and (max-width: 200px) {
+    .feature-image{
+        width: 180px;
+    }
+    .btn{
+        margin: 4px 0px;
+        
+    }
+    .last-btn{
+      text-align: center;
+    }
+  }
+@media only screen and (max-width: 180px) {
+    .feature-image{
+        width: 150px;
+    }
+    .btn{
+        margin: 4px 0px;
+        
+    }
+    .last-btn{
+      text-align: center;
+    }
+  }
+@media only screen and (max-width: 160px) {
+    .feature-image{
+        width: 120px;
+    }
+    .btn{
+        margin: 4px 0px;
+        
+    }
+    .last-btn{
+      text-align: center;
+    }
+  }
+@media only screen and (max-width: 130px) {
+    h1{
+    font-size: 20px;
+    color: whitesmoke;
+    margin: 0;
+    }
+    .feature-image{
+        width: 100px;
+    }
+    .btn{
+        margin: 4px 0px;
+        
+    }
+    .last-btn{
+      text-align: center;
+    }
+  }
+@media only screen and (max-width: 125px) {
+    h1{
+    font-size: 20px;
+    color: whitesmoke;
+    margin: 0;
+    }
+    h2{
+    font-size: 20px;
+    margin-top: 0;
+    }
+    .feature-image{
+        width: 100px;
+    }
+    .btn{
+        margin: 4px 0px;
+        
+    }
+    .last-btn{
+      text-align: center;
+    }
+  }
+@media only screen and (max-width: 105px) {
+    h1{
+        font-size: 15px;
+        color: whitesmoke;
+        margin: 0;
+    }
+    h2{
+        font-size: 15px;
+        margin-top: 0;
+        
+    }
+
+    .feature-image{
+        width: 60px;
+    }
+    .btn{
+        margin: 4px 0px;
+        
+    }
+    .last-btn{
+      text-align: center;
+      font-size: xx-small;
+    }
+    p{
+        font-size: 10px;
+    }
+}
